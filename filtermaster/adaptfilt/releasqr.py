@@ -10,7 +10,7 @@ def rls(xn:list|np.ndarray,dn:list|np.ndarray,r:int=3):
     the heavy calculation quantity, LS filter isn't suitable when the 
     length of input values is huge. We also want to design a filter which 
     can be described by a recurrence formula like the grand descend filter 
-    and LMS filter. Lukily, the RLS filter can satisfy our requirements.
+    and LMS filter. Luckily, the RLS filter can satisfy our requirements.
 
     Parameters
     ----------
