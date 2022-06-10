@@ -68,7 +68,7 @@ def rls(xn:list|np.ndarray,dn:list|np.ndarray,r:int=3):
         pn = lam**(-1)*pn - lam**(-1)*kn*x.T*pn
         # calculate output values of filter
         y = (w.T*x)[0,0]
-        # store the output value, coefficients and error
+        # store the output value and coefficients
         yn.append(y)
         wn.append(w)
     # return
